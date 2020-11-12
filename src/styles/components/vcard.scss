@@ -1,0 +1,21 @@
+@import "../mixin.scss";
+.vcard-container {
+    width: 260px;
+    margin-bottom: 10px;
+    .header {
+        @include flex($jc: space-between, $ai: center);
+        margin-bottom: 10px;
+        .left {
+            color: #333333;
+            font-size: 18px;
+        }
+        .right {
+            color: #999999;
+            font-size: 12px;
+        }
+    }
+    img {
+        width: 260px;
+        height: 140px;
+    }
+}

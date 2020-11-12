@@ -1,0 +1,72 @@
+@import "../_var.scss";
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    width: 1120px;
+    margin: 0 auto;
+    background-color: #fff;
+
+    ul {
+        display: flex;
+        align-self: stretch;
+        flex: 1;
+        padding: 0 10px;
+        margin-left: 40px;
+        li {
+            line-height: 58px;
+            padding: 0 16px;
+            cursor: pointer;
+            &:hover {
+                color: $themeColor;
+                border-bottom: 2px solid $themeColor;
+            }
+            a {
+                display: block;
+            }
+        }
+        .checked {
+            background-color: $themeColor;
+            .link {
+                color: #fff;
+            }
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .logo {
+        font-size: 25px;
+        color: $themeColor;
+    }
+    .info {
+        display: flex;
+        width: 183px;
+        align-items: center;
+        justify-content: space-between;
+        i {
+            color: $themeColor;
+            font-size: 25px;
+            cursor: pointer;
+            border-radius: 50%;
+
+            &:hover {
+                background-color: $themeColor;
+                color: #fff;
+            }
+        }
+        span {
+            font-size: 14px;
+            color: $themeColor;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .line {
+            color: #eee;
+        }
+    }
+}

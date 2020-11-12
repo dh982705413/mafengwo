@@ -1,0 +1,42 @@
+@import "../styles/var";
+.mfw-container {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    .left {
+        margin-right: 20px;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 69px;
+        border-bottom: 1px solid #eeeeee;
+        margin-bottom: 10px;
+        width: 820px;
+        height: 69px;
+        .tab-left {
+            display: flex;
+        }
+        .tab {
+            font-size: 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .tab-checked {
+            border-bottom: 2px solid $themeColor;
+        }
+        button {
+            padding: 10px 20px;
+            outline: none;
+            background-color: $themeColor;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}

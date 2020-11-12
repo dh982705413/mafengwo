@@ -1,0 +1,56 @@
+@import "../_var.scss";
+
+.search-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 538px;
+    height: 89px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    padding: 10px;
+    .options {
+        display: flex;
+        color: #fff;
+        .options-item {
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .radio {
+                width: 15px;
+                height: 15px;
+                background-color: #fff;
+                border-radius: 50%;
+                margin-right: 5px;
+                border: 1px solid $themeColor;
+            }
+            .checked {
+                background-color: $themeColor;
+                border: 2px solid #fff;
+            }
+        }
+    }
+    .input-wrap {
+        display: flex;
+        align-items: center;
+        input {
+            width: 474px;
+            height: 36px;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+            border: none;
+            padding-left: 10px;
+        }
+        button {
+            height: 36px;
+            outline: none;
+            border: none;
+            padding: 0 8px;
+            background-color: $themeColor;
+            color: #fff;
+            border-radius: 0 4px 4px 0;
+        }
+    }
+}

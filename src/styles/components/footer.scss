@@ -1,0 +1,33 @@
+@import "../_var.scss";
+@import "../mixin.scss";
+$bg: #3c3c3c;
+$textColor: #c2c2c2;
+.footer-container {
+    width: 100%;
+    padding: 30px 100px;
+    background-color: $bg;
+    .footer-title {
+        text-align: center;
+        color: $textColor;
+        .footer-icons {
+            margin: 20px 0;
+            i {
+                font-size: 25px;
+                margin: 0 5px;
+            }
+        }
+    }
+    ul {
+        @include flex(space-between);
+        transform: translateX(50px);
+        div {
+            @include flex(flex-start);
+            li {
+                margin-right: 20px;
+                a {
+                    color: $themeColor;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@import "../_var.scss";
+
+.myfocus {
+    position: relative;
+    .search {
+        position: absolute;
+        left: 150px;
+        bottom: 25px;
+        z-index: 999;
+    }
+    .carousel-root {
+        .carousel-slider {
+            height: 450px;
+            .container {
+                position: relative;
+                img {
+                    width: 100%;
+                }
+            }
+            .img-info {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                position: absolute;
+                top: 20px;
+                left: 150px;
+                color: #fff;
+                font-size: 18px;
+                span {
+                    text-shadow: 0 1px 3px rgba($color: #000000, $alpha: 0.5);
+                }
+                .number {
+                    font-size: 30px;
+                }
+            }
+        }
+        .thumbs-wrapper {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            .thumb {
+                border: 1px solid transparent;
+                img {
+                    width: 110px;
+                    height: 62px;
+                    user-select: none;
+                }
+            }
+        }
+        .carousel {
+            position: static;
+        }
+    }
+    .carousel .thumb.selected,
+    .carousel .thumb:hover {
+        border: 1px solid $themeColor;
+    }
+}
