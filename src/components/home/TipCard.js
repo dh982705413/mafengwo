@@ -1,5 +1,13 @@
+/*
+ * @Author: your name
+ * @Date: 2020-11-08 20:50:15
+ * @LastEditTime: 2020-11-22 20:24:34
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \react-mafengwo\src\components\home\TipCard.js
+ */
 import React, { Component } from "react";
-import "../styles/components/tip_card.scss";
+import "../../styles/components/home/tip_card.scss";
 function Card(props) {
   return (
     <div className="card-container">

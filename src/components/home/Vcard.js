@@ -1,5 +1,13 @@
+/*
+ * @Author: your name
+ * @Date: 2020-11-08 21:19:48
+ * @LastEditTime: 2020-11-22 20:24:44
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \react-mafengwo\src\components\home\Vcard.js
+ */
 import React, { Component } from "react";
-import "../styles/components/vcard.scss";
+import "../../styles/components/home/vcard.scss";
 import LazyLoad from "react-lazyload";
 
 class Vcard extends Component {

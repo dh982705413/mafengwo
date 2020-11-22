@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/components/hcard.scss";
+import "../../styles/components/home/hcard.scss";
 import LazyLoad from "react-lazyload";
 
 class Hcard extends Component {

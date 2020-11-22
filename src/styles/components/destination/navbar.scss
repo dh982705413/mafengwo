@@ -1,0 +1,68 @@
+@import "../../var.scss";
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+
+    padding: 20px 0;
+    margin: 0 auto;
+    .navbar-title {
+        margin: 20px 0;
+    }
+    .navbar-tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        li {
+            position: relative;
+            padding-bottom: 15px;
+            height: 100%;
+            cursor: pointer;
+            color: #333;
+            font-size: 18px;
+            margin: 0 10px;
+            border-bottom: 2px solid transparent;
+        }
+
+        .active {
+            border-bottom: 2px solid $themeColor;
+            color: $themeColor;
+        }
+        .divide {
+            margin-top: 3px;
+            width: 1px;
+            height: 15px;
+            background-color: #eee;
+            overflow: hidden;
+            line-height: 100px;
+            vertical-align: top;
+        }
+    }
+    .navbar-content {
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        .season-recom-wrapper {
+            position: relative;
+            width: 323px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+            img {
+                width: 323px;
+                height: 220px;
+            }
+            span {
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                color: #ffffff;
+                font-size: 24px;
+                font-weight: normal;
+            }
+        }
+    }
+}

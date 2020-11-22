@@ -1,5 +1,13 @@
+/*
+ * @Author: your name
+ * @Date: 2020-11-09 19:51:52
+ * @LastEditTime: 2020-11-22 20:24:08
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \react-mafengwo\src\components\home\BackToTop.js
+ */
 import React, { Component } from "react";
-import "../styles/components/back_top.scss";
+import "../../styles/components/home/back_top.scss";
 class BackToTop extends Component {
   state = {
     show: false,

@@ -1,8 +1,16 @@
+/*
+ * @Author: your name
+ * @Date: 2020-11-08 22:00:42
+ * @LastEditTime: 2020-11-22 20:25:19
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \react-mafengwo\src\pages\MfContent.js
+ */
 import React, { Component } from "react";
 import "../styles/mfw_content.scss";
 import http from "../utils/http";
-import Vcard from "../components/Vcard";
-import Hcard from "../components/Hcard";
+import Vcard from "../components/home/Vcard";
+import Hcard from "../components/home/Hcard";
 class MfContent extends Component {
   state = {
     left: [],

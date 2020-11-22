@@ -1,8 +1,16 @@
+/*
+ * @Author: your name
+ * @Date: 2020-11-08 18:50:00
+ * @LastEditTime: 2020-11-22 20:24:20
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \react-mafengwo\src\components\home\MyFocus.js
+ */
 import React, { Component } from "react";
-import http from "../utils/http";
+import http from "../../utils/http";
 import { Carousel } from "react-responsive-carousel";
-import "../styles/components/myfocus.scss";
-import SearchInput from "../components/SearchInput";
+import "../../styles/components/home/myfocus.scss";
+import SearchInput from "../../components/SearchInput";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 class MyFocus extends Component {
   state = {
